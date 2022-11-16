@@ -13,7 +13,6 @@ namespace JoggerPantsWPF.Converters
     /// </summary>
     public class EnumToDescriptionConverter : BaseOnewayConverter
     {
-        public EnumToDescriptionConverter() { }
         public override object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
             if (value == null)
