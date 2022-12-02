@@ -8,11 +8,25 @@
     <Title>JoggerPantsWPF</Title>
     <Description>JoggerPantsWpf is a useful toolbox to support MVVM WPF projects.</Description>
     <PackageProjectUrl>https://github.com/BOBx5/JoggerPantsWPF</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="favicon.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.39" />
     <PackageReference Include="System.Drawing.Common" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
