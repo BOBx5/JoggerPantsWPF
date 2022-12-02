@@ -4,6 +4,10 @@
     <TargetFramework>net7.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>JoggerPantsWPF</Title>
+    <Description>JoggerPantsWpf is a useful toolbox to support MVVM WPF projects.</Description>
+    <PackageProjectUrl>https://github.com/BOBx5/JoggerPantsWPF</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
