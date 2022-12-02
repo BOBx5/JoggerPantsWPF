@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 
-namespace WpfControlLibrary.Helpers
+namespace JoggerPantsWPF.Helpers
 {
     /// <summary>
     /// IFileDragDropTarget Interface. This interface is used to define a target that can accept file drag and drop.
