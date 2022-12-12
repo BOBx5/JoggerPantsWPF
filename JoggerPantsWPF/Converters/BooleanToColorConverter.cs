@@ -36,9 +36,13 @@ namespace JoggerPantsWPF.Converters
                         {
                             return valueAsBool ? colorParams[0].AsDrawingColor() : colorParams[1].AsDrawingColor();
                         }
-                    case var t when t == typeof(System.Windows.Media.SolidColorBrush):
+                    case var t when t == typeof(System.Windows.Media.Brush):
                         {
                             return valueAsBool ? new System.Windows.Media.SolidColorBrush(colorParams[0]) : new  System.Windows.Media.SolidColorBrush(colorParams[1]);
+                        }
+                    default:
+                        {
+                            return returnColor;
                         }
                 }
             }
